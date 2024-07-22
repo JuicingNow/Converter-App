@@ -49,7 +49,7 @@ root = tk.Tk()
 root.geometry("760x680")
 root.title("Converter App by enginex")
 
-# Верхняя часть с выпадающими списками
+# top
 top_frame = tk.Frame(root)
 top_frame.pack(side=tk.TOP, padx=20, pady=20)
 
@@ -81,7 +81,7 @@ target_combo.bind('<KeyRelease>', targetSearch)
 target_value_label = tk.Label(right_frame, text="Target: ")
 target_value_label.pack()
 
-# Центральная часть
+# middle
 center_frame = tk.Frame(root)
 center_frame.pack(side=tk.TOP, pady=20)
 
